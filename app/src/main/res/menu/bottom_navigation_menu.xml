@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/showEvent"
+        android:icon="@drawable/ic_events"
+        android:title="Show">
+
+    </item>
+    <item
+        android:id="@+id/createEvent"
+        android:icon="@drawable/ic_create"
+        android:title="Create">
+
+    </item>
+    <item
+        android:id="@+id/myEvent"
+        android:icon="@drawable/ic_make"
+        android:title="My">
+
+    </item>
+    <item
+        android:id="@+id/myMessages"
+        android:icon="@drawable/ic_message"
+        android:title="Messages">
+
+    </item>
+    <item
+        android:id="@+id/logoutEvent"
+        android:icon="@drawable/ic_logout"
+        android:title="Logout">
+
+    </item>
+</menu>

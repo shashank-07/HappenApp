@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "232664324857",
+    "firebase_url": "https://happenapp-1d524.firebaseio.com",
+    "project_id": "happenapp-1d524",
+    "storage_bucket": "happenapp-1d524.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232664324857:android:237f6d26715047ef",
+        "android_client_info": {
+          "package_name": "com.example.shash.shashanksummer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "232664324857-3i9a7004nr0pnss1k4okui1bpbeb508l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shash.shashanksummer",
+            "certificate_hash": "0d5d2f8217239020f9460da59b0634855022d81c"
+          }
+        },
+        {
+          "client_id": "232664324857-1bkikveljk4hnh9h8oc4jvqtla51j0bp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKaGLBmnSIBY85uaXuRN38ptnGQu50btU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "232664324857-1bkikveljk4hnh9h8oc4jvqtla51j0bp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

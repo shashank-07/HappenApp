@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/partyy"
+        android:icon="@drawable/ic_party"
+        android:title="Party">
+
+    </item>
+
+    <item
+        android:id="@+id/clubmeet"
+        android:icon="@drawable/ic_clubmeet"
+        android:title="Club Meet">
+
+    </item>
+    <item
+        android:id="@+id/fest"
+        android:icon="@drawable/ic_fest"
+        android:title="Fest">
+
+    </item>
+    <item
+        android:id="@+id/guestlec"
+        android:icon="@drawable/ic_guestlec"
+        android:title="Guest\n Lecture">
+
+    </item>
+
+    <item
+        android:id="@+id/other"
+        android:icon="@drawable/ic_other"
+        android:title="Other">
+
+    </item>
+
+
+</menu>

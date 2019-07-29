@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#BAD01E5F</color>
+
+    <color name="White">#EBFFFFFF</color>
+    <color name="Party">#A6961BD8</color>
+    <color name="ClubMeet">#66F700A6</color>
+    <color name="fest">#661B2ED8</color>
+    <color name="groupstudy">#662ED81B</color>
+    <color name="guestlec">#66D81BAF</color>
+    <color name="other">#5EFFCA00</color>
+</resources>

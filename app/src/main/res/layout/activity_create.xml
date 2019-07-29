@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateActivity"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:background="#000">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:weightSum="100"
+        app:layout_constraintBottom_toTopOf="@+id/nav_view_bar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:focusableInTouchMode="true"
+
+
+                android:layout_weight="50" />
+
+            <EditText
+                android:id="@+id/OtherCat"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:textColor="#FFF"
+                android:backgroundTint="@android:color/holo_red_light"
+                android:layout_weight="50"
+                android:hint="if other,Please specify"
+                android:textColorHint="@color/cardview_light_background"
+                android:inputType="textPersonName" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <EditText
+                android:id="@+id/Name"
+                android:textColor="#FFF"
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="50"
+                android:textColorHint="@color/cardview_light_background"
+
+                android:backgroundTint="@android:color/holo_red_light"
+                android:hint="Name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/Link"
+                android:layout_width="0dp"
+                android:textColor="#FFF"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:backgroundTint="#FFF"
+
+                android:textColorHint="@color/cardview_light_background"
+
+                android:layout_weight="50"
+                android:hint="URL Link" />
+
+
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/Description"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textColor="#FFF"
+            android:layout_gravity="center"
+            android:layout_weight="10"
+            android:textColorHint="@color/cardview_light_background"
+            android:backgroundTint="#FFF"
+
+            android:hint="desc"
+            android:inputType="textPersonName" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <EditText
+                android:id="@+id/Start"
+                android:layout_width="0dp"
+                android:textColor="#FFF"
+                android:layout_height="match_parent"
+                android:textColorHint="@color/cardview_light_background"
+
+                android:layout_gravity="center"
+                android:backgroundTint="@android:color/holo_red_light"
+                android:layout_weight="50"
+                android:hint="Start date and time"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/End"
+                android:layout_width="0dp"
+                android:textColor="#FFF"
+                android:textColorHint="@color/cardview_light_background"
+
+                android:layout_height="match_parent"
+                android:backgroundTint="@android:color/holo_red_light"
+                android:layout_gravity="center"
+
+                android:layout_weight="50"
+                android:hint="End Date and time" />
+
+
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/PhoneNo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="6"
+            android:backgroundTint="#FFF"
+            android:hint="Contact number"
+
+            android:inputType="textPersonName"
+            android:textColor="#FFF"
+            android:textColorHint="@color/cardview_light_background"
+            android:textSize="14sp" />
+        <Button
+            android:id="@+id/enter_image"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+
+            android:layout_weight="7"
+            android:text="Clear all" />
+
+        <Button
+            android:id="@+id/enter_event"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+
+            android:layout_weight="7"
+            android:text="Enter" />
+
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:map="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="40"
+            tools:context=".CreateActivity" />
+
+
+    </LinearLayout>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view_bar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_gravity="bottom"
+        android:background="#FFF"
+        app:itemHorizontalTranslationEnabled="false"
+        app:itemIconTint="#000"
+
+        app:itemTextColor="#000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_navigation_menu">
+
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
